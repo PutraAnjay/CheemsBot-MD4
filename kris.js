@@ -190,7 +190,7 @@ let buttons = [
 {buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./Krismedia/theme/cheems.xlsx'),
+document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
 mimetype: docs,
 jpegThumbnail:KrisWlcm,
 mentions: [num],
