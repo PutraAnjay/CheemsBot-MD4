@@ -3,12 +3,12 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
+//© 2022 kris Bot Inc. Cheems Bot MD
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
 //recode kar ke youtube pe upload kar rhe hai ya
 //codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
+//hai to, description me kris ka yt channel
 // ka link paste kr dena as a cradit or github 
 //repo me bhi tag kardena baki jo
 //bhi karna hai apki marzi, thank you!🦄
@@ -77,7 +77,7 @@ async function startXeonBotInc() {
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Subscribe Xeon','Safari','1.0.0'],
+        browser: ['Subscribe kris','Safari','1.0.0'],
         auth: state
     })
 
@@ -168,14 +168,14 @@ XeonWlcm = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeU
 XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/d460e086f9f9bf6b04e17.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
                 const xeonbuffer = await getBuffer(ppuser)
-                let xeonName = num
+                let krisname = num
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: XeonWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: XeonWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'kris', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                 xeonbody = `┌─❖
 │「 𝗛𝗶 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
+└┬❖ 「 @${krisname.split("@")[0]}  」
    │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
    │✑  ${metadata.subject}
    │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
@@ -184,7 +184,7 @@ XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeUR
    │✑ ${xtime} ${xdate}
    └───────────────┈ ⳹`
       //if you copy the code value,
-   //dont forget to put my name(Xeon) as credit
+   //dont forget to put my name(kris) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
 {buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
@@ -214,12 +214,12 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                 	const xeonbuffer = await getBuffer(ppuser)
                     const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-                	let xeonName = num
+                	let krisname = num
                     const xeonmembers = metadata.participants.length
-                    let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                    let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'kris', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                     xeonbody = `┌─❖
 │「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
+└┬❖ 「 @${krisname.split("@")[0]}  」
    │✑  𝗟𝗲𝗳𝘁 
    │✑ ${metadata.subject}
    │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
@@ -228,7 +228,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
    │✑  ${xeontime} ${xeondate}
    └───────────────┈ ⳹`
       //if you copy the code value,
-   //dont forget to put my name(Xeon) as credit
+   //dont forget to put my name(kris) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
 {buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
@@ -541,7 +541,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} options 
      * @returns 
      */
-    XeonBotInc.sendMedia = async (jid, path, fileName = '', caption = '', quoted = '', options = {}) => {
+    XeonBotInc.sendMedia = async (jid, path, fileName = '', caption = '', quoteond = '', options = {}) => {
         let types = await XeonBotInc.getFile(path, true)
            let { mime, ext, res, data, filename } = types
            if (res && res.status !== 200 || file.length <= 65536) {
@@ -636,7 +636,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
     }
 
 
-//send 5 button image by xeon
+//send 5 button image by kris
     XeonBotInc.send5ButImg = async (jid , text = '' , footer = '', img, but = [], thumb, options = {}) =>{
         let message = await prepareWAMessageMedia({ image: img, jpegThumbnail:thumb }, { upload: XeonBotInc.waUploadToServer })
         var template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -653,7 +653,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
     }
 
 
-    //send5butvid by xeon
+    //send5butvid by kris
         XeonBotInc.send5ButVid = async (jid , text = '' , footer = '', vid, but = [], options = {}) =>{
         let message = await prepareWAMessageMedia({ video: vid }, { upload: XeonBotInc.waUploadToServer })
         var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
@@ -670,7 +670,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
     }
     
     
-    //send5butmsg by xeon
+    //send5butmsg by kris
             XeonBotInc.send5ButMsg = (jid, text = '' , footer = '', but = []) =>{
         let templateButtons = but
         var templateMessage = {
@@ -682,7 +682,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         }
 
 
-//sendlistmsg by xeon
+//sendlistmsg by kris
         XeonBotInc.sendListMsg = (jid, text = '', footer = '', title = '' , butText = '', sects = [], quoted) => {
         let sections = sects
         var listMes = {
@@ -696,7 +696,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         }
 
 
-    //send5butgif by xeon
+    //send5butgif by kris
         XeonBotInc.send5ButGif = async (jid , text = '' , footer = '', gif, but = [], options = {}) =>{
         let message = await prepareWAMessageMedia({ video: gif, gifPlayback: true }, { upload: XeonBotInc.waUploadToServer })
         var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
